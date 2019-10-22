@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plApproved.Text" xml:space="preserve">
+    <value>Aprobado</value>
+  </data>
+  <data name="publishCalendarLink.Text" xml:space="preserve">
+    <value>Calendario</value>
+  </data>
+  <data name="plDetails.Help" xml:space="preserve">
+    <value>Página dentro de materna -&gt; Seleccione una página del dropdown&lt;br&gt;
+Página fuera de materna -&gt; Ingrese la URL completa&lt;br&gt;
+HTML -&gt; Ingrese el maquetado HTML&lt;br&gt;
+Ninguno -&gt;El artículo no tendrá contenido.</value>
+  </data>
+  <data name="plDetails.HTML.Text" xml:space="preserve">
+    <value>Contenido del artículo</value>
+  </data>
+  <data name="plExpireDate.Text" xml:space="preserve">
+    <value>Fecha de vencimiento (oculta artículo)</value>
+  </data>
+  <data name="detailTypeHTML.Text" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="plDetailType.Text" xml:space="preserve">
+    <value>Tipo de contenido</value>
+  </data>
+  <data name="plPublishDate.Text" xml:space="preserve">
+    <value>Fecha de publicación</value>
+  </data>
+  <data name="expireCalendarLink.Text" xml:space="preserve">
+    <value>Calendario</value>
+  </data>
+  <data name="plAuthor.Help" xml:space="preserve">
+    <value>Indique quien es el autor (por defecto es el usuario actual)</value>
+  </data>
+  <data name="plRoles.Help" xml:space="preserve">
+    <value>You can specify roles which are allowed to view this article by selecting Selected Roles and then moving your chosen roles to the right listbox.</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>Ingrese el copete del artículo</value>
+  </data>
+  <data name="plPublishDate.Help" xml:space="preserve">
+    <value>(opcional) Indica la fecha en la que el artículo quedará publico</value>
+  </data>
+  <data name="detailTypeInternal.Text" xml:space="preserve">
+    <value>Página en materna</value>
+  </data>
+  <data name="plCategory.Help" xml:space="preserve">
+    <value>Seleccione la categoria en la que se incluye el artículo (obligatorio)</value>
+  </data>
+  <data name="Description.ErrorMessage" xml:space="preserve">
+    <value>Debe ingresar un copete</value>
+  </data>
+  <data name="plAuthor.Text" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;About the Articles Module&lt;/h1&gt;
+&lt;p&gt;The Articles module is an Advanced version of the Announcement module that adds a variety of features including: thumbnailed images, archives, searching, filtering, publish date, approval, and a variety of options to present additional detail.&lt;p&gt;</value>
+  </data>
+  <data name="plFeatured.Text" xml:space="preserve">
+    <value>Destacado de Sección? (no usar)</value>
+  </data>
+  <data name="plSubHead.Help" xml:space="preserve">
+    <value>Ingrese el subtítulo del artículo</value>
+  </data>
+  <data name="plImage.Text" xml:space="preserve">
+    <value>Imagen del artículo</value>
+  </data>
+  <data name="plImageTitle.Text" xml:space="preserve">
+    <value>Bajada de la Imagen</value>
+  </data>
+  <data name="detailTypeExternal.Text" xml:space="preserve">
+    <value>Página fuera de materna</value>
+  </data>
+  <data name="plKeywords.Help" xml:space="preserve">
+    <value>Palabras claves para optimizar el SEO del artículo</value>
+  </data>
+  <data name="detailTypeExternalVideo.Text" xml:space="preserve">
+    <value>Video Externo</value>
+  </data>
+  <data name="plDetails.External.Text" xml:space="preserve">
+    <value>Página fuera de materna</value>
+  </data>
+  <data name="AddDate.Text" xml:space="preserve">
+    <value>Add Date?</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Editar Artículo</value>
+  </data>
+  <data name="plKeywords.Text" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="ExpireDate.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;You have entered an invalid date!</value>
+  </data>
+  <data name="plRoles.Text" xml:space="preserve">
+    <value>Permisos sobre el artículo</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>Copete</value>
+  </data>
+  <data name="plCategory.Text" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="plTitle.Help" xml:space="preserve">
+    <value>Indique un título para el artículo (será parte de la URL del artículo)</value>
+  </data>
+  <data name="plDetails.Internal.Text" xml:space="preserve">
+    <value>Seleccione una página</value>
+  </data>
+  <data name="plTitle.Text" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="valTitle.ErrorMessage" xml:space="preserve">
+    <value>Debe ingresar un título para el artículo</value>
+  </data>
+  <data name="plExpireDate.Help" xml:space="preserve">
+    <value>(opcional) Indica la fecha en la que el artículo será dado de baja.</value>
+  </data>
+  <data name="plApproved.Help" xml:space="preserve">
+    <value>Administrators must check this box before an Article will be displayed to users.</value>
+  </data>
+  <data name="plImage.Help" xml:space="preserve">
+    <value>(optional) Select an image file to appear in the Article List. An image thumbnail will automatically be generated according to the MaxSize set in the ArticleList View Options.</value>
+  </data>
+  <data name="plFeatured.Help" xml:space="preserve">
+    <value>Tildar si  desea destacar el artículo en los listados de los hubs.</value>
+  </data>
+  <data name="PublishDate.ErrorMessage" xml:space="preserve">
+    <value>Debe ingresar una fecha de publicación válida.</value>
+  </data>
+  <data name="plSubHead.Text" xml:space="preserve">
+    <value>Sobretítulo</value>
+  </data>
+  <data name="plVersion.Text" xml:space="preserve">
+    <value>Versión</value>
+  </data>
+  <data name="plVersion.Help" xml:space="preserve">
+    <value>The versions of this article that currently exist are shown below.</value>
+  </data>
+  <data name="plVerDesc.Text" xml:space="preserve">
+    <value>Version Description</value>
+  </data>
+  <data name="plVerDesc.Help" xml:space="preserve">
+    <value>Identifying name for this version.</value>
+  </data>
+  <data name="plDetailType.Help" xml:space="preserve">
+    <value>Select the Detail Type that will be displayed when the user clicks on the Read More link.</value>
+  </data>
+  <data name="detailTypeNone.Text" xml:space="preserve">
+    <value>Sin detalle</value>
+  </data>
+  <data name="plDetails.Video.Text" xml:space="preserve">
+    <value>Video Link</value>
+  </data>
+  <data name="plDetails.File.Text" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="detailTypeFile.Text" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="btnSaveVer.Text" xml:space="preserve">
+    <value>Actualizar esta versión</value>
+  </data>
+  <data name="btnSaveVerNew.Text" xml:space="preserve">
+    <value>Grabar como nueva versión</value>
+  </data>
+  <data name="lblNoCategories.Text" xml:space="preserve">
+    <value>It appears the Efficion's Categories Module is not installed your installation of DotNetNuke. While the Categories module is not necessary, it adds some nice features to the Articles Module. &lt;a href='http://www.efficionconsulting.com/Default.aspx?tabid=352' Target='new'&gt;Learn More&lt;/a&gt;.</value>
+  </data>
+  <data name="plTags.Help" xml:space="preserve">
+    <value>Palabras claves del artículo para mejorar la navegación del usuario.</value>
+  </data>
+  <data name="plTags.Text" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="plSubCategory.Help" xml:space="preserve">
+    <value>Seleccione la subcategoría del artículo (si corresponde)</value>
+  </data>
+  <data name="plSubCategory.Text" xml:space="preserve">
+    <value>SubCategoría</value>
+  </data>
+  <data name="plFeaturedHome.Help" xml:space="preserve">
+    <value>Tildar para destacar en el listado de sección de la home.</value>
+  </data>
+  <data name="plFeaturedHome.Text" xml:space="preserve">
+    <value>Activar versión para la APP Profesionales</value>
+  </data>
+  <data name="plImagePositionY.Help" xml:space="preserve">
+    <value>Posición en Y (px) para la imagen en vista 380x100</value>
+  </data>
+  <data name="plImagePositionY.Text" xml:space="preserve">
+    <value>Posición Y</value>
+  </data>
+  <data name="plArticuloAnterior.Text" xml:space="preserve">
+    <value>ItemID del artículo anterior</value>
+  </data>
+  <data name="plArticuloSiguiente.Text" xml:space="preserve">
+    <value>ItemID del artículo siguiente</value>
+  </data>
+  <data name="plCodigo.Text" xml:space="preserve">
+    <value>Código Interno</value>
+  </data>
+  <data name="plNroRevista.Text" xml:space="preserve">
+    <value># Revista Conexión (S/Corresponde)</value>
+  </data>
+  <data name="plShowImage.Text" xml:space="preserve">
+    <value>Mostrar Imagen en despliegue</value>
+  </data>
+  <data name="plEspecialidad.Help" xml:space="preserve">
+    <value>Seleccione las especialidades que cubren el artículo</value>
+  </data>
+  <data name="plEspecialidad.Text" xml:space="preserve">
+    <value>Especialidad</value>
+  </data>
+  <data name="plProducto.Help" xml:space="preserve">
+    <value>Seleccione los productos que cubren el artículo</value>
+  </data>
+  <data name="plProducto.Text" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="plBiblioteca.Help" xml:space="preserve">
+    <value>Tilde si desea que el artículo esté incluido en la biblioteca. (tiempo de reindexado: 30 minutos)</value>
+  </data>
+  <data name="plBiblioteca.Text" xml:space="preserve">
+    <value>Artículo indexado en biblioteca científica</value>
+  </data>
+</root>

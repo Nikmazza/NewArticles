@@ -1,0 +1,7 @@
+E:\Dropbox\DevelopmentSite9.0.1\bin\NewArticles.dll
+E:\Dropbox\DevelopmentSite9.0.1\bin\NewArticles.pdb
+E:\Dropbox\DevelopmentSite9.0.1\DesktopModules\NewArticles\obj\Debug\NewArticles.csprojAssemblyReference.cache
+E:\Dropbox\DevelopmentSite9.0.1\DesktopModules\NewArticles\obj\Debug\NewArticles.csproj.CoreCompileInputs.cache
+E:\Dropbox\DevelopmentSite9.0.1\DesktopModules\NewArticles\obj\Debug\NewArticles.csproj.CopyComplete
+E:\Dropbox\DevelopmentSite9.0.1\DesktopModules\NewArticles\obj\Debug\NewArticles.dll
+E:\Dropbox\DevelopmentSite9.0.1\DesktopModules\NewArticles\obj\Debug\NewArticles.pdb

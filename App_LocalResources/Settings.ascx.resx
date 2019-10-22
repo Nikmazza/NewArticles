@@ -112,24 +112,512 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="NoRestriction.Text" xml:space="preserve">
+    <value>No Restriction</value>
+  </data>
+  <data name="plDetailDisplayPage.Text" xml:space="preserve">
+    <value>Detail Display Page</value>
+  </data>
+  <data name="chkFilterByCategory.Text" xml:space="preserve">
+    <value>Filter by Categories</value>
+  </data>
+  <data name="chkImage.Text" xml:space="preserve">
+    <value>Article Image</value>
+  </data>
+  <data name="plCategory.Help" xml:space="preserve">
+    <value>Specifies the Categories from which Articles are displayed. Select none to display articles from all categories.</value>
+  </data>
+  <data name="templateComplete.Text" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="DetailDisplaySamePage.Text" xml:space="preserve">
+    <value>On Same Page</value>
+  </data>
+  <data name="plFeatured.Help" xml:space="preserve">
+    <value>Check to display only Articles for which the Featured checkbox has been checked.</value>
+  </data>
+  <data name="MoreArticles.Text" xml:space="preserve">
+    <value>More Articles...</value>
+  </data>
+  <data name="plAllowAuthorSelection.Help" xml:space="preserve">
+    <value>Check to allow Editors to select the Author for the Article from a list of users.</value>
+  </data>
+  <data name="chkAnonymousComments.Text" xml:space="preserve">
+    <value>Allow Anonymous Comments</value>
+  </data>
+  <data name="plDateRange.Help" xml:space="preserve">
+    <value>Choose how long items should be displayed.</value>
+  </data>
+  <data name="plShowSearch.Text" xml:space="preserve">
+    <value>Show Search</value>
+  </data>
+  <data name="plImageWidth.Help" xml:space="preserve">
+    <value>The articles module automatically generates thumbnails for the image specified for the article, this number specifies the maximum width in pixels of the generated thumbnails.</value>
+  </data>
+  <data name="plSiteWide.Help" xml:space="preserve">
+    <value>Check to display Articles from any Articles module in the portal that meet the other filter criteria (i.e. Featured, Category, MaxItems, DateRange, ...)</value>
+  </data>
   <data name="ControlTitle_settings.Text" xml:space="preserve">
-    <value>NewArticles Settings</value>
+    <value>Articles Options</value>
   </data>
-  <data name="lblSetting1.Help" xml:space="preserve">
-    <value>Put your value for Setting 1 here.</value>
+  <data name="plCustomSelect.Help" xml:space="preserve">
+    <value>You may specify a Custom Select String or Stored Procedure for retrieving the list of articles.
+</value>
   </data>
-  <data name="lblSetting1.Text" xml:space="preserve">
-    <value>Setting One</value>
+  <data name="plAuthorizedRoles.Text" xml:space="preserve">
+    <value>Authorized Roles</value>
   </data>
-  <data name="lblSetting2.Help" xml:space="preserve">
-    <value>Put your value for Setting 2 here.</value>
+  <data name="DetailTemplateBasic.Text" xml:space="preserve">
+    <value>Basic</value>
   </data>
-  <data name="lblSetting2.Text" xml:space="preserve">
-    <value>Setting Two</value>
+  <data name="AllCategories.Text" xml:space="preserve">
+    <value>All Categories</value>
+  </data>
+  <data name="SortFieldCreationDate.Text" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="plMoreArticlesPage.Text" xml:space="preserve">
+    <value>to Page:</value>
+  </data>
+  <data name="plTemplate.Text" xml:space="preserve">
+    <value>List Template</value>
+  </data>
+  <data name="plSortField.Help" xml:space="preserve">
+    <value>Select the field to use for sorting items in the article list.</value>
+  </data>
+  <data name="templateNoImage.Text" xml:space="preserve">
+    <value>No Image</value>
+  </data>
+  <data name="plRequireApproval.Help" xml:space="preserve">
+    <value>Check this to require Articles to be approved before being displayed to users.</value>
+  </data>
+  <data name="plMaxItems.Help" xml:space="preserve">
+    <value>Select the maximum number of items to be displayed on the Article list. Additional items may be available through the More Articles link.</value>
+  </data>
+  <data name="DetailDisplayNewPage.Text" xml:space="preserve">
+    <value>In New Page</value>
+  </data>
+  <data name="plDisplayedFields.Help" xml:space="preserve">
+    <value>Check all fields that you want displayed in the list view.</value>
+  </data>
+  <data name="plArticleSeparator.Help" xml:space="preserve">
+    <value>Default separator is &amp;lt;br&amp;gt;. Any valid HTML is allowed (e.g. &amp;lt;hr&amp;gt;, ...)</value>
+  </data>
+  <data name="templateFancy.Text" xml:space="preserve">
+    <value>Fancy</value>
+  </data>
+  <data name="templateTitleOnly.Text" xml:space="preserve">
+    <value>Title Only</value>
+  </data>
+  <data name="detailTypeExternalVideo.Text" xml:space="preserve">
+    <value>External Video</value>
+  </data>
+  <data name="templateStandard.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="plHidePaging.Help" xml:space="preserve">
+    <value>Check to hide the paging control; this disables access to other pages.</value>
+  </data>
+  <data name="dateRange6Months.Text" xml:space="preserve">
+    <value>6 Months</value>
+  </data>
+  <data name="dateRange1Week.Text" xml:space="preserve">
+    <value>1 Week</value>
+  </data>
+  <data name="plCategory.Text" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="DetailTemplateGoogleVideo.Text" xml:space="preserve">
+    <value>Google Video</value>
+  </data>
+  <data name="DetailDisplayDifferentPage" xml:space="preserve">
+    <value>On Different Page</value>
+  </data>
+  <data name="plAllowAuthorSelection.Text" xml:space="preserve">
+    <value>Enable Author Selection</value>
+  </data>
+  <data name="plArticlesPerPage.Text" xml:space="preserve">
+    <value>Articles per page</value>
+  </data>
+  <data name="DetailTemplateFlashVideo.Text" xml:space="preserve">
+    <value>Flash Video (FLV)</value>
+  </data>
+  <data name="chkFilterByIssue.Text" xml:space="preserve">
+    <value>Filter By Issue(s)</value>
+  </data>
+  <data name="dateRange3Months.Text" xml:space="preserve">
+    <value>3 Months</value>
+  </data>
+  <data name="plSortField.Text" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="plDetailDisplay.Text" xml:space="preserve">
+    <value>Detail Display Location</value>
+  </data>
+  <data name="Right.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="plCustomSelect.Text" xml:space="preserve">
+    <value>Custom Select Statement or Stored Procedure</value>
+  </data>
+  <data name="chkShowReadMore.Text" xml:space="preserve">
+    <value>Read More Link</value>
+  </data>
+  <data name="chkAllowComments.Text" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="SortFieldExpireDate.Text" xml:space="preserve">
+    <value>Expire Date</value>
+  </data>
+  <data name="SortFieldPublishDate.Text" xml:space="preserve">
+    <value>Publish Date</value>
+  </data>
+  <data name="plRequireCategory.Help" xml:space="preserve">
+    <value>Check to require that at least one Category is selected.</value>
+  </data>
+  <data name="plAllowComments.Help" xml:space="preserve">
+    <value>Check this option, to allow registered Users or anonymous visitors adding comments.</value>
+  </data>
+  <data name="plArticlesPerPage.Help" xml:space="preserve">
+    <value>Select the number of Articles, that shall be displayed per page if paging is enabled.</value>
+  </data>
+  <data name="Alternate.Text" xml:space="preserve">
+    <value>Alternate</value>
+  </data>
+  <data name="chkDescription.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="plTemplate.Help" xml:space="preserve">
+    <value>Select a Template for displaying each item in the article list.
+There are currently 4 templates supplied:
+-Standard: contains all information
+-No Image: same as standard but without the image
+-Compact: Just Titles are shown
+-Fancy: Included as an example of what can be done with fancier containers.
+
+You may create an unlimited number of additional templates. Instructions will be provided soon.</value>
+  </data>
+  <data name="plDateRange.Text" xml:space="preserve">
+    <value>Date Range</value>
+  </data>
+  <data name="plMoreArticlesText.Help" xml:space="preserve">
+    <value>Enter the text you want displayed for the More Articles Link (e.g. Archived Articles, Additional Announcement, ...)</value>
+  </data>
+  <data name="plRequireCategory.Text" xml:space="preserve">
+    <value>Require Category</value>
+  </data>
+  <data name="plResizeImages.Text" xml:space="preserve">
+    <value>Resize Images</value>
+  </data>
+  <data name="Middle.Text" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="plFeatured.Text" xml:space="preserve">
+    <value>Featured Articles Only</value>
+  </data>
+  <data name="plDefaultDetailType.Text" xml:space="preserve">
+    <value>Default Detail Type</value>
+  </data>
+  <data name="Left.Text" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="dateRange1Month.Text" xml:space="preserve">
+    <value>1 Month</value>
+  </data>
+  <data name="plArticleSeparator.Text" xml:space="preserve">
+    <value>Article Separator</value>
+  </data>
+  <data name="plRequireApproval.Text" xml:space="preserve">
+    <value>Require Approval</value>
+  </data>
+  <data name="plEnableVersioning.Text" xml:space="preserve">
+    <value>Enable Versioning</value>
+  </data>
+  <data name="plEnableVersioning.Help" xml:space="preserve">
+    <value>Check this to allow multiple versions of an Article to exist. If a maximium number of versions is specified, inactive versions will be deleted based on their last date edited.</value>
+  </data>
+  <data name="plMaxVersions.Text" xml:space="preserve">
+    <value>Max # of Versions</value>
+  </data>
+  <data name="plEditorEditOnly.Text" xml:space="preserve">
+    <value>Limit Version Editing to Original Version Editor Only </value>
+  </data>
+  <data name="plEditorEditOnly.Help" xml:space="preserve">
+    <value>Check this to prevent users from making version updates to Article versions they are not the original editor of. They will still be able to create new versions, but not overwrite other user's versions.</value>
+  </data>
+  <data name="plAuthorEditOnly.Text" xml:space="preserve">
+    <value>Limit Article Editing to Original Author Only </value>
+  </data>
+  <data name="plAuthorEditOnly.Help" xml:space="preserve">
+    <value>Check this to prevent users from making any updates to Article they are not the original editor of. Users will not be able to create new versions unless they are the original author.</value>
+  </data>
+  <data name="Baseline.Text" xml:space="preserve">
+    <value>Baseline</value>
+  </data>
+  <data name="plMoreArticlesText.Text" xml:space="preserve">
+    <value>More Articles Text</value>
+  </data>
+  <data name="plDetailDisplayPage.Help" xml:space="preserve">
+    <value>You may select any page for displaying the Article details. The chosen page must have an Articles module on it or no details will be displayed. This allows you to add any additional modules to the detail page that are desired.</value>
+  </data>
+  <data name="plDetailsTemplate.Help" xml:space="preserve">
+    <value>Select the desired template for displaying the articles details. Templates can be added and modified.</value>
+  </data>
+  <data name="plDisplayedFields.Text" xml:space="preserve">
+    <value>Displayed Fields</value>
+  </data>
+  <data name="plShowSearch.Help" xml:space="preserve">
+    <value>Check to display the Search Box at the end of the Article List.</value>
+  </data>
+  <data name="plAllowComments.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="plImageWidth.Text" xml:space="preserve">
+    <value>Thumbnail Width: </value>
+  </data>
+  <data name="plSiteWide.Text" xml:space="preserve">
+    <value>Display Site-Wide Articles</value>
+  </data>
+  <data name="DetailTemplateStandard.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="SortFieldLastModifiedDate.Text" xml:space="preserve">
+    <value>Last Modified Date</value>
+  </data>
+  <data name="plAuthorizedRoles.Help" xml:space="preserve">
+    <value>Select which roles are Authorized. Unauthorized roles will not be able to view article details.</value>
+  </data>
+  <data name="chkShowCategory.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="plMoreArticles.Text" xml:space="preserve">
+    <value>Display More Articles Link</value>
+  </data>
+  <data name="plHidePaging.Text" xml:space="preserve">
+    <value>Hide paging control</value>
+  </data>
+  <data name="dateRange2Weeks.Text" xml:space="preserve">
+    <value>2 Weeks</value>
+  </data>
+  <data name="plResizeImages.Help" xml:space="preserve">
+    <value>Check this to have the Articles List automatically resize images to a specified width. This is a true resize of the image file, not just HTML resizing.</value>
+  </data>
+  <data name="plMaxItems.Text" xml:space="preserve">
+    <value>Maximum Items Displayed</value>
+  </data>
+  <data name="plImageAlignment.Text" xml:space="preserve">
+    <value>Image Alignment</value>
+  </data>
+  <data name="plDetailsTemplate.Text" xml:space="preserve">
+    <value>Details Template</value>
+  </data>
+  <data name="Top.Text" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="plImageAlignment.Help" xml:space="preserve">
+    <value>Select an option for how images should aligned within the list. </value>
+  </data>
+  <data name="plDetailDisplay.Help" xml:space="preserve">
+    <value>Select whether you want the detailed information entered into the Text/HTML details box to appear on a New Page by itself (&lt;b&gt;Note:&lt;/b&gt; The admin skin will be used) or in place of the Articles List (all other modules on the page will still be present).</value>
+  </data>
+  <data name="dateRange1Year.Text" xml:space="preserve">
+    <value>1 Year</value>
+  </data>
+  <data name="plMoreArticles.Help" xml:space="preserve">
+    <value>Check to display a More Articles link at the bottom of the Articles list. Then select the page to which the link will go.</value>
+  </data>
+  <data name="plSTFMessage.Text" xml:space="preserve">
+    <value>Default Send to a Friend Message</value>
+  </data>
+  <data name="plSTFMessage.Help" xml:space="preserve">
+    <value>The message that will be pre-filled in the Message box when a user clicks the Send To a Friend button.</value>
+  </data>
+  <data name="plEnableSendToFriend.Text" xml:space="preserve">
+    <value>Enable Send To a Friend</value>
+  </data>
+  <data name="plEnableSendToFriend.Help" xml:space="preserve">
+    <value>Allow users to click on a button to send the current article to a friend.</value>
+  </data>
+  <data name="SortFieldTitle.Text" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="plTrackClicks.Help" xml:space="preserve">
+    <value>Check this box if you want DNN Click Tracking enabled for clicks on the Read More link. This may negatively impact your speed and SEO a bit.</value>
+  </data>
+  <data name="plTrackClicks.Text" xml:space="preserve">
+    <value>Track Clicks</value>
+  </data>
+  <data name="plSTFPrivacyLink.Help" xml:space="preserve">
+    <value>Enter the URL the Page the user will be taken to when the click on the Privacy Link in the Send to Friend Box</value>
+  </data>
+  <data name="plSTFPrivacyLink.Text" xml:space="preserve">
+    <value>Send To Friend Privacy Link</value>
+  </data>
+  <data name="plSTFPrivacyMessage.Help" xml:space="preserve">
+    <value>Enter the Message the user will see when they mouse over the Privacy Link in the Send To Friend box.</value>
+  </data>
+  <data name="plSTFPrivacyMessage.Text" xml:space="preserve">
+    <value>Send To Friend Privacy Message</value>
+  </data>
+  <data name="chkRequireCategory.Text" xml:space="preserve">
+    <value>Require Category</value>
+  </data>
+  <data name="plDisableAddNew.Text" xml:space="preserve">
+    <value>Disable Add New</value>
+  </data>
+  <data name="plDisableAddNew.Help" xml:space="preserve">
+    <value>If Display Site Wide Articles is enabled, you may want to disable the "Add New Article" functionality so users have to add the article through a diiferent Article.</value>
+  </data>
+  <data name="lblNoCategories.Text" xml:space="preserve">
+    <value>&lt;br&gt;It appears the Efficion's Categories Module is not installed on your installation of DotNetNuke. While the Categories module is not necessary, it adds some the ability to categorize posted articles, filter article views based on categories and other useful features. &lt;a href='http://www.efficionconsulting.com/Default.aspx?tabid=352' Target='new'&gt;Learn More&lt;/a&gt;.</value>
+  </data>
+  <data name="liAllSelectedCategories.Text" xml:space="preserve">
+    <value>All Selected Categories</value>
+  </data>
+  <data name="liAnySelectedCategory.Text" xml:space="preserve">
+    <value>Any Selected Category</value>
+  </data>
+  <data name="detailTypeExternal.Text" xml:space="preserve">
+    <value>External</value>
+  </data>
+  <data name="detailTypeFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="detailTypeHTML.Text" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="detailTypeInternal.Text" xml:space="preserve">
+    <value>Internal</value>
+  </data>
+  <data name="detailTypeNone.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="SortFieldRandom.Text" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="detailDisplayOtherModule.Text" xml:space="preserve">
+    <value>Other Article Module</value>
+  </data>
+  <data name="plDetailDisplaySelectOtherModule.Text" xml:space="preserve">
+    <value>Select Other Module</value>
+  </data>
+  <data name="plPrintTemplate.Help" xml:space="preserve">
+    <value>Select the desired template for printing the articles details. Templates can be added and modified.</value>
+  </data>
+  <data name="plPrintTemplate.Text" xml:space="preserve">
+    <value>Print Template</value>
+  </data>
+  <data name="chkShowPrint.Text" xml:space="preserve">
+    <value>Print Link</value>
+  </data>
+  <data name="chkModerateComments.Text" xml:space="preserve">
+    <value>Comments Require Moderation</value>
+  </data>
+  <data name="plCommentNotification.Help" xml:space="preserve">
+    <value>List of email addresses to notify when comments are posted.</value>
+  </data>
+  <data name="plCommentNotification.Text" xml:space="preserve">
+    <value>Comment Notification List</value>
+  </data>
+  <data name="plAlwaysLink.Help" xml:space="preserve">
+    <value>Always make the Title and Read More links link to the Details page even if there are no details set. Useful for letting users see the description when using the TitleOnly or TitleSubHead templates.</value>
+  </data>
+  <data name="plAlwaysLink.Text" xml:space="preserve">
+    <value>Always Link</value>
+  </data>
+  <data name="plModeratorRoles.Text" xml:space="preserve">
+    <value>Moderator Roles</value>
+  </data>
+  <data name="liCMSiteWide.Help" xml:space="preserve">
+    <value>Show Comments waiting to be module for all instances of the article module in this portal.</value>
+  </data>
+  <data name="liCMSiteWide.Text" xml:space="preserve">
+    <value>Site Wide</value>
+  </data>
+  <data name="liCMThisModule.Help" xml:space="preserve">
+    <value>Show Comments waiting to be moderated for this module only.</value>
+  </data>
+  <data name="liCMThisModule.Text" xml:space="preserve">
+    <value>This Module</value>
+  </data>
+  <data name="plCMScope.Text" xml:space="preserve">
+    <value>Comment Moderation Scope</value>
+  </data>
+  <data name="plDisableRSS.Help" xml:space="preserve">
+    <value>Disable RSS Link in page header</value>
+  </data>
+  <data name="plDisableRSS.Text" xml:space="preserve">
+    <value>Disable RSS Link</value>
+  </data>
+  <data name="plEnableAddThisRSS.Help" xml:space="preserve">
+    <value>Enable AddThis RSS Link</value>
+  </data>
+  <data name="plEnableAddThisRSS.Text" xml:space="preserve">
+    <value>Enable AddThis RSS Link</value>
+  </data>
+  <data name="plFriendlyUrls.Help" xml:space="preserve">
+    <value>Replaces default.aspx with the article title (e.g. my-article-title.aspx)</value>
+  </data>
+  <data name="plFriendlyUrls.Text" xml:space="preserve">
+    <value>Enable Friendly URLs</value>
+  </data>
+  <data name="plShowMoreDetails.Help" xml:space="preserve">
+    <value>Select the display mode for the Show More Details Link</value>
+  </data>
+  <data name="plShowMoreDetails.Text" xml:space="preserve">
+    <value>Show More Details</value>
+  </data>
+  <data name="ShowMoreDetailsSeparateLine.Text" xml:space="preserve">
+    <value>Separate Line</value>
+  </data>
+  <data name="ShowMoreDetaisInline.Text" xml:space="preserve">
+    <value>Inline</value>
+  </data>
+  <data name="chkDisplayGravatar.Text" xml:space="preserve">
+    <value>Display Gravatar Icons</value>
+  </data>
+  <data name="ddlGravatarMaximumAllowedRating.Text" xml:space="preserve">
+    <value>Gravatar Maximum Allowed Rating</value>
+  </data>
+  <data name="liGMARG.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="liGMARPG.Text" xml:space="preserve">
+    <value>PG</value>
+  </data>
+  <data name="liGMARR.Text" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="liGMARX.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="lblGravatarSize.Text" xml:space="preserve">
+    <value>Gravatar Size</value>
+  </data>
+  <data name="chkResizeImages.Text" xml:space="preserve">
+    <value>Generate Thumbnail in List View</value>
+  </data>
+  <data name="plCMScope.Help" xml:space="preserve">
+    <value>If moderators should be able to moderate any comment in this portal, select Site Wide. If they should only be able to moderate comments to articles created through this module, select This Module</value>
+  </data>
+  <data name="plImages.Help" xml:space="preserve">
+    <value>Specify how images are displayed in the list view</value>
+  </data>
+  <data name="plImages.Text" xml:space="preserve">
+    <value>Images/Thumbnails</value>
+  </data>
+  <data name="chkDisplayCategoryTabs.Help" xml:space="preserve">
+    <value>When checked, a list of Tabs with each filter category will be displayed at the top of the module.</value>
+  </data>
+  <data name="chkDisplayCategoryTabs.Text" xml:space="preserve">
+    <value>Display Category Tabs</value>
+  </data>
+  <data name="SortFieldNroSemana.Text" xml:space="preserve">
+    <value>Número de semana</value>
   </data>
 </root>
